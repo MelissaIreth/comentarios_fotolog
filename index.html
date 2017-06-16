@@ -27,7 +27,7 @@
 	</section>
 	<section id="contenido">
 		<div class="container">
-			<div class="col-md-2 recientes uno">
+			<div class="col-md-2 recientes hidden-sm hidden-xs">
 				<a href="" class="fotos">Fotos Recientes</a>
 				<img src="img/jarcor.jpg">
 				<img src="img/foto_0920140822124434.jpg" alt="">
@@ -60,8 +60,8 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-8 text-center">
-					<button type="button" id="boton" class="btn btn-fotolog">Dejar comentario</button>
+				<div class="col-md-offset-3 col-md-6 text-center col-xs-12">
+					<button type="button" id="boton" class="btn btn-fotolog btn-block" value="Guardar comentario">Dejar comentario</button>
 				</div>
 			</div>
 
@@ -74,8 +74,8 @@
 			</div>
 		</div>
 		<div class="row">
-				<div class="col-md-8 text-center">
-					<button type="button" class="btn btn-fotolog" onclick="cleanData()" value="Limpiar datos">Eliminar comentario</button>
+				<div class="col-md-offset-3 col-md-6 text-center col-xs-12">
+					<button type="button" id="boton-clean" class="btn btn-fotolog btn-block" value="Limpiar datos">Eliminar comentarios</button>
 				</div>
 			</div>
 
@@ -83,7 +83,7 @@
 	<footer>
 		<div class="row">
 			<div class="col-md-12">
-				<p class="text-center">Laboratoria 2017</p>
+				<p class="text-center"><b>Laboratoria 2017 <i class="fa fa-heart-o" aria-hidden="true"></i></b></p>
 			</div>
 		</div>
 	</footer>

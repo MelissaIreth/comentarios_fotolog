@@ -1,27 +1,25 @@
-body {
+body{
   background-color: #FFC0CB;
-  color:black;
+  color:#444444;
   font-family: 'Noto Sans', sans-serif;
 }
-
-header {
+header{
   margin-top: 20px;
 }
-img {
+img{
   width: 100%;
   margin-bottom: 30px;
 }
-
-}
-a {
+a{
   text-decoration: underline;
   color: DeepPink;
   margin-bottom: 30px;
   font-weight: bolder;
 }
-
-
-#bannerflog img {
+a:hover{
+  color: #ff7f96;
+}
+#bannerflog img{
   height: 100px;
 }
 h1, p{
@@ -31,46 +29,59 @@ h1{
   font-size: 50px;
   font-weight: bolder;
 }
-
-textarea, input{
+textarea{
+  background-color: #f7e2e6;
   width: 100%;
   border-radius: 3px;
   border: 1px solid DeepPink;
   margin-bottom: 20px;
 }
-
-/*
-.posteo {
-  color: DeepPink;
-}
-.posteo strong{
-  display: block;
-}
-.posteo hr {
+input{
+  background-color: #f7e2e6;
+  width: 100%;
+  border-radius: 3px;
   border: 1px solid DeepPink;
+  margin-bottom: 5px;
 }
-*/
-
 .btn-fotolog{
   background-color: #FFC0CB;
-  color: black;
+  border: 1px solid DeepPink;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.btn-fotolog:hover{
+  background-color: DeepPink;
+  color: white;
+}
+.btn-fotolog:active{
+  background-color: #ff7f96;
+}
+footer{
+  padding: 10px;
+  background-color: #ff7f96;
+  margin-top: 20px;
+}
+
+/* Estilos comentarios */
+.div-comentario{
+  padding: 17px;
+}
+.eltitulo{
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid DeepPink;
+}
+.el-texto{
+  padding: 3px;
+  font-size: 15px;
+  background-color: #f7e2e6;
   border: 1px solid DeepPink;
   border-radius: 3px;
 }
 
-.btn-fotolog:hover{
-  background-color: DeepPink;
-}
 
-footer{
-  padding: 10px;
-}
-
-
-
-
-/* Estilos comentarios */
-
+/*Para mobile*/
 @media (max-width: 800px){
   .logo{
     width: 40%;
