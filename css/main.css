@@ -1,6 +1,7 @@
 body {
-  background-color: white;
+  background-color: #FFC0CB;
   color:black;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 header {
@@ -11,17 +12,20 @@ img {
   margin-bottom: 30px;
 }
 
+}
 a {
   text-decoration: underline;
-  color: green;
+  color: DeepPink;
   margin-bottom: 30px;
+  font-weight: bolder;
 }
+
 
 #bannerflog img {
   height: 100px;
 }
 h1, p{
-  color: DeepPink ;
+  color: DeepPink;
 }
 h1{
   font-size: 50px;
@@ -30,11 +34,12 @@ h1{
 
 textarea, input{
   width: 100%;
-  border-radius: 0px;
+  border-radius: 3px;
   border: 1px solid DeepPink;
   margin-bottom: 20px;
 }
 
+/*
 .posteo {
   color: DeepPink;
 }
@@ -44,20 +49,43 @@ textarea, input{
 .posteo hr {
   border: 1px solid DeepPink;
 }
-/* PARA CORAZON */
-.corazon {
-  font-size: 40px;
-  color: gray;
-  text-align: center;
+*/
+
+.btn-fotolog{
+  background-color: #FFC0CB;
+  color: black;
+  border: 1px solid DeepPink;
+  border-radius: 3px;
 }
-.rojo {
-  color: red;
+
+.btn-fotolog:hover{
+  background-color: DeepPink;
 }
+
 footer{
   padding: 10px;
 }
 
 
 
+
 /* Estilos comentarios */
 
+@media (max-width: 800px){
+  .logo{
+    width: 40%;
+  }
+  #bannerflog h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .arenita{
+    padding-top: 20px;
+  }
+  .arenita p{
+    font-size: 20px;
+  }
+  .uno{
+    display: none;
+  }
+}

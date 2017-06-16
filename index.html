@@ -5,13 +5,14 @@
 	<title>FOTOLOG - ..::ÁrÉnItÁ .´´´ ÁmíGáS x CrÉw::..</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 logo">
+				<div class="col-md-3 logo text-center">
 					<img src="img/fotolog-logo.png" alt="">
 				</div>
 			</div>
@@ -19,30 +20,30 @@
 	</header>
 	<section id="bannerflog">
 		<div class="container">
-			<div class="col-md-12 text-center">
+			<div class="col-md-12 col-xs-12 text-center">
 				<h1>..::ÁrÉnItÁ .´´´ ÁmíGáS x CrÉw::..</h1>
 			</div>
 		</div>
 	</section>
 	<section id="contenido">
 		<div class="container">
-			<div class="col-md-2 recientes">
+			<div class="col-md-2 recientes uno">
 				<a href="" class="fotos">Fotos Recientes</a>
 				<img src="img/jarcor.jpg">
 				<img src="img/foto_0920140822124434.jpg" alt="">
 				<img src="img/i-62869.jpeg" alt="">
 				<img src="img/p3.jpg" alt="">
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-8 col-xs-9 arenita">
 				<img src="img/m1_768_11MS.jpg" alt="">
 				<p>AqUi EStAáá Mi AmIgA ArEnItAáÁÁ</p>
 			</div>
-			<div class="col-md-2 recientes">
+			<div class="col-md-2 col-xs-3 recientes">
 				<a href="" class="fotos">Fotos Recientes</a>
 				<img src="img/jarcor.jpg">
 				<img src="img/foto_0920140822124434.jpg" alt="">
 				<img src="img/i-62869.jpeg" alt="">
-				<img src="img/p3.jpg" alt="">
+				<img src="img/p3.jpg" alt="" class="uno">
 			</div>
 		</div>
 	</section>
@@ -52,20 +53,32 @@
 				<div class="col-md-offset-3 col-md-6">
 					<form Name="formulario">
 						<h3>Nombre</h3>
-						<input type="text" id="clave">
+						<input type="text" id="key">
 						<h3>Comentario</h3>
-						<textarea id="valor"></textarea>
+						<textarea id="value"></textarea>
 					</form>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-8 text-center">
+					<button type="button" id="boton" class="btn btn-fotolog">Dejar comentario</button>
+				</div>
+			</div>
+
 		</div>
 	</section>
 	<section class="container">
 		<div class="row">
 			<div class="col-md-offset-3 col-md-6">
-				<div id="ale"></div>
+				<div id="comentario-final"></div>
 			</div>
 		</div>
+		<div class="row">
+				<div class="col-md-8 text-center">
+					<button type="button" class="btn btn-fotolog" onclick="cleanData()" value="Limpiar datos">Eliminar comentario</button>
+				</div>
+			</div>
+
 	</section>
 	<footer>
 		<div class="row">
